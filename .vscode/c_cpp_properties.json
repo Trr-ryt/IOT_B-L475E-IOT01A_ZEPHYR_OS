@@ -1,0 +1,46 @@
+{
+    "env": {
+        "MY_ZEPHYR_BASE": "C:/toolchain/zephyr/zephyr_rtos",
+        "MY_ZEPHYR_MODULE": "C:/toolchain/zephyr/modules",
+        "MY_ZEPHYR_LIBS": "C:/toolchain/zephyr/zephyr_rtos/include",
+        "MY_ZEPHYR_DRIVERS": "C:/toolchain/zephyr/zephyr_rtos/drivers",
+        "MY_GNUARMEMB_TOOLCHAIN_PATH": "C:/toolchain/gnuarmemb/12.2.rel1",
+        "MY_ZEPHYR_TOOLCHAIN_PATH": "C:/toolchain/zephyr/sdk/0.16.1/arm-zephyr-eabi",
+        "MY_BUILD_DIR": "c:/trr/iot_prj/b_l475e_iot01a1/cmake_build"
+    },
+    "configurations": [
+        {
+            "name": "cmake build commands ARM",
+            "compilerPath": "C:/toolchain/gnuarmemb/12.2.rel1/bin/arm-none-eabi-gcc.exe",
+            "compileCommands": "",
+            "includePath": [
+                "c:/trr/iot_prj/b_l475e_iot01a1/code/app_mcu/01.inc/",
+                "c:/trr/iot_prj/b_l475e_iot01a1/code/app_mcu/02.cfg",
+                "c:/trr/iot_prj/b_l475e_iot01a1/code/modules",
+            ],
+            "forcedInclude": [],
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "path": [
+                    "c:/trr/iot_prj/b_l475e_iot01a1/**",
+                    "C:/toolchain/zephyr/modules/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "__GTEST=0",
+                "BUILD_VERSION=zephyr-v30300",
+                "KERNEL",
+                "__mcu__=1",
+                "_FORTIFY_SOURCE=1",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

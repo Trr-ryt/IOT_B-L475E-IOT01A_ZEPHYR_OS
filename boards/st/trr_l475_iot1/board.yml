@@ -1,0 +1,6 @@
+board:
+  name: trr_l475_iot1
+  full_name: TRR_L475_IOT1 (B-L475E-IOT01A)
+  vendor: st
+  socs:
+    - name: stm32l475xx

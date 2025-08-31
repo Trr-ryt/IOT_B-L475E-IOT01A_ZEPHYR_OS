@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "limits": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstdarg": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "type_traits": "cpp",
+        "new": "cpp",
+        "typeinfo": "cpp",
+        "random": "cpp",
+        "unordered_map": "cpp",
+        "istream": "cpp",
+        "numeric": "cpp",
+        "ostream": "cpp"
+    },
+    "cortex-debug.gdbPath": "C:/toolchain/gnuarmemb/12.2.rel1/bin/arm-none-eabi-gdb.exe",
+    "cortex-debug.stlinkPath": "C:/ST/STM32CubeCLT_1.18.0/STLink-gdb-server/bin/ST-LINK_gdbserver.exe"
+}
